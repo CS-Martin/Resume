@@ -23,9 +23,7 @@
 
         h1 {
             font-size: 2em;
-            font-family: 'Gilroy-Regular', sans-serif;
             color: #4a4e51;
-
         }
 
         html,
@@ -38,6 +36,7 @@
             font-size: 18px;
             font-weight: 30;
             color: #333332;
+            height: auto;
         }
 
         .wrapper {
@@ -72,11 +71,6 @@
             color: rgb(125, 125, 125);
         }
 
-        ul {
-            display: inline-block;
-
-        }
-
         li {
             list-style-type: none;
             padding: 8px;
@@ -93,6 +87,7 @@
         .left-list {
             padding-left: 12%;
             float: left;
+
         }
 
         .right-list {
@@ -108,25 +103,23 @@
         }
 
         .skillset-container {
-            text-align: left;
-            overflow: auto;
+            text-align: center;
         }
 
         .skill-set li {
-            background: rgb(173, 89, 89);
+            background-color: rgb(173, 89, 89);
             border-radius: 7px;
             color: #fff;
             display: inline-block;
-            margin: 12px 10px 0 3px;
-            padding: 15px;
-            transition: transform .2s;
+            margin: 14px 5px 0px 0px;
+            padding: 20px;
+            transition: transform .3s;
 
         }
 
         .skill-set li:hover {
-            background: rgb(212, 143, 143);
+            background: rgb(196, 116, 116);
             transform: scale(1.2);
-            z-index: 5;
             cursor: default;
         }
 
@@ -178,7 +171,8 @@
         }
 
         th {
-            padding-bottom: 10px;
+            width: 10%;
+            padding-bottom: 3px;
         }
 
         td {
@@ -197,12 +191,22 @@
 
         @media screen and (max-width: 768px) {
 
-            .right,
+            .right {
+                float: none !important;
+                position: relative !important;
+                width: 100%;
+                height: auto;
+            }
+
             .left {
                 float: none;
-                position: relative;
+                position: relative !important;
                 width: 100%;
-                min-height: 500px;
+                min-height: auto;
+            }
+
+            .contact-me {
+                margin-bottom: 10px;
             }
 
             .my-img {
@@ -223,7 +227,23 @@
                 margin-top: 25px;
             }
 
-            img {}
+            .skillset-container {
+                text-align: center;
+            }
+
+            .skill-set li {
+                padding: 15px;
+            }
+
+            th {
+                font-size: 15px;
+                width: 10%;
+                text-align: left;
+            }
+
+            td {
+                font-size: 12px;
+            }
         }
     </style>
 </head>
@@ -280,7 +300,7 @@
                     </ul>
                 </div>
             </div>
-            <div>
+            <div class="contact-me">
                 <a href="contact-page.html">Contact me</a>
             </div>
         </div>
