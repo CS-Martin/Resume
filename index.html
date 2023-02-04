@@ -83,6 +83,7 @@
         }
 
         .my-img {
+            max-width: 100%;
             margin-top: 15px;
             border-radius: 50%;
             border: 7px solid rgb(173, 89, 89);
@@ -119,6 +120,7 @@
             margin: 12px 10px 0 3px;
             padding: 15px;
             transition: transform .2s;
+
         }
 
         .skill-set li:hover {
@@ -151,12 +153,12 @@
             margin: 0 auto;
             width: 85%;
             font-size: small;
+
         }
 
         .experience-table-design h3 {
             color: rgb(173, 89, 89);
             padding-left: 3%;
-
         }
 
         .experience-table {
@@ -183,6 +185,45 @@
             padding-bottom: 25px;
             font-size: 80%;
             color: rgb(182, 182, 182);
+        }
+
+        .clearfix:after {
+            content: " ";
+            visibility: hidden;
+            display: block;
+            height: 0;
+            clear: both;
+        }
+
+        @media screen and (max-width: 768px) {
+
+            .right,
+            .left {
+                float: none;
+                position: relative;
+                width: 100%;
+                min-height: 500px;
+            }
+
+            .my-img {
+                max-width: 90%;
+            }
+
+            .name-text {
+                font-size: 14px;
+            }
+
+            body {
+                font-size: 14px;
+                overflow: scroll;
+            }
+
+            h1.statement {
+                font-size: 20px;
+                margin-top: 25px;
+            }
+
+            img {}
         }
     </style>
 </head>
@@ -247,7 +288,7 @@
         <!-- RIGHT SIDE OF THE SCREEN STARTS HERE -->
         <div class="right txt-design second-section-padding">
             <div class="inner">
-                <h1>
+                <h1 class="statement">
                     <i>
                         "Seeking a challenging role where I can continue to enhance my skills as a UI/UX Designer and
                         Software Developer."
