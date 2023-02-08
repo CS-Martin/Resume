@@ -7,245 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Martin's Resume</title>
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-    <style>
-        @import url(https://fonts.googleapis.com/css?family=Varela+Round);
-        @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
-        @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
-
-        *,
-        *:before,
-        *:after {
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-        }
-
-        h1 {
-            font-size: 2em;
-            color: #4a4e51;
-        }
-
-        html,
-        body {
-            /* This crap is needed to occupy the edges of the screen :) */
-            width: 100%;
-            margin: 0 auto;
-            font-family: "Varela Round", sans-serif;
-            line-height: 1;
-            font-size: 18px;
-            font-weight: 30;
-            color: #333332;
-            height: auto;
-        }
-
-        .wrapper {
-            height: 100%;
-        }
-
-        .left {
-            background-color: rgba(0, 0, 0, 0.071);
-            border-right: 1px solid rgba(0, 0, 0, .05);
-            float: right;
-            height: 100%;
-            margin-left: -1px;
-            min-width: 256px;
-            position: fixed;
-            width: 33.33%;
-            text-align: center;
-            padding: 1%;
-        }
-
-        hr.one {
-            border-top: 1px solid rgba(196, 196, 196, 0.25);
-            width: 85%;
-        }
-
-        hr.two {
-            border: 1px solid rgb(173, 89, 89);
-        }
-
-        .contact-list {
-            display: inline;
-            text-align: left;
-            color: rgb(125, 125, 125);
-        }
-
-        li {
-            list-style-type: none;
-            padding: 8px;
-        }
-
-        .my-img {
-            max-width: 100%;
-            margin-top: 15px;
-            border-radius: 50%;
-            border: 7px solid rgb(173, 89, 89);
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 3px 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
-
-        .left-list {
-            padding-left: 12%;
-            float: left;
-
-        }
-
-        .right-list {
-            padding-right: 12%;
-            float: right;
-        }
-
-        .tech-stack-title {
-            text-align: left;
-            font-size: 60%;
-            margin-top: 30px;
-            margin-left: 43px;
-        }
-
-        .skillset-container {
-            text-align: center;
-        }
-
-        .skill-set li {
-            background-color: rgb(173, 89, 89);
-            border-radius: 7px;
-            color: #fff;
-            display: inline-block;
-            margin: 14px 5px 0px 0px;
-            padding: 20px;
-            transition: transform .3s;
-
-        }
-
-        .skill-set li:hover {
-            background: rgb(196, 116, 116);
-            transform: scale(1.2);
-            cursor: default;
-        }
-
-        .right {
-            float: right;
-            height: 100%;
-            position: relative;
-            width: 66.66%;
-            background-color: rgb(41, 41, 41);
-        }
-
-        .txt-design h1 {
-            color: white;
-            text-align: center;
-            font-family: 'Varela Round', sans-serif;
-            font-weight: 100;
-        }
-
-        .second-section-padding {
-            padding: 1% 3%;
-        }
-
-        .inner {
-            margin: 0 auto;
-            width: 85%;
-            font-size: small;
-
-        }
-
-        .experience-table-design h3 {
-            color: rgb(173, 89, 89);
-            padding-left: 3%;
-        }
-
-        .experience-table {
-            color: white;
-            font-family: 'Gilroy-Light', sans-serif;
-            text-align: left;
-            width: 100%;
-            padding-left: 3%;
-        }
-
-        .education-table {
-            color: white;
-            font-family: 'Gilroy-Light', sans-serif;
-            text-align: justify;
-            width: 100%;
-            padding-left: 3%;
-        }
-
-        th {
-            width: 10%;
-            padding-bottom: 3px;
-        }
-
-        td {
-            padding-bottom: 25px;
-            font-size: 80%;
-            color: rgb(182, 182, 182);
-        }
-
-        .clearfix:after {
-            content: " ";
-            visibility: hidden;
-            display: block;
-            height: 0;
-            clear: both;
-        }
-
-        @media screen and (max-width: 768px) {
-
-            .right {
-                float: none !important;
-                position: relative !important;
-                width: 100%;
-                height: auto;
-            }
-
-            .left {
-                float: none;
-                position: relative !important;
-                width: 100%;
-                min-height: auto;
-            }
-
-            .contact-me {
-                margin-bottom: 10px;
-            }
-
-            .my-img {
-                max-width: 90%;
-            }
-
-            .name-text {
-                font-size: 14px;
-            }
-
-            body {
-                font-size: 14px;
-                overflow: scroll;
-            }
-
-            h1.statement {
-                font-size: 20px;
-                margin-top: 25px;
-            }
-
-            .skillset-container {
-                text-align: left;
-            }
-
-            .skill-set li {
-                padding: 15px;
-            }
-
-            th {
-                font-size: 15px;
-                width: 10%;
-                text-align: left;
-            }
-
-            td {
-                font-size: 12px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/312249a238.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -253,7 +16,7 @@
         <div class="left">
             <div class="name-hero">
                 <div>
-                    <img class="my-img" src="/Resume/assets/asdadd.jpg" alt="">
+                    <img class="my-img" src="/assets/asdadd.jpg" alt="">
                     <div class="name-text">
                         <h1>Martin Edgar Atole</h1>
                     </div>
@@ -261,10 +24,10 @@
                     <hr class="one">
 
                     <div class="contact-list">
-                        <ul class="left-list">
-                            <li>Phone</li>
-                            <li>Email</li>
-                            <li>Address</li>
+                        <ul class="left-list contact-tag">
+                            <li><i class="fa-solid fa-phone"></i>Phone</li>
+                            <li><i class="fa-solid fa-envelope"></i>Email</li>
+                            <li><i class="fa-solid fa-location-dot"></i>Address</li>
                         </ul>
 
                         <ul class="right-list">
@@ -272,36 +35,34 @@
                             <li>meatole.cs@gmail.com</li>
                             <li>Villa Obiedo, Naga City</li>
                         </ul>
+
                     </div>
+
 
                     <hr class="one">
 
                     <div class="tech-stack-title">
-                        <h1>Skills / Tech Stacks:</h1>
+                        <p>Tech Stacks:</p>
                     </div>
                 </div>
             </div>
-            <div>
-                <div class="skillset-container">
-                    <ul class="skill-set">
-                        <li>Mobile Development</li>
-                        <li>Application Development</li>
-                        <li>Figma</li>
-                        <li>Adobe Illustrator</li>
-                        <li>UI Design </li>
-                        <li>Graphic Design</li>
-                        <li>C++</li>
-                        <li>JavaScript</li>
-                        <li>Vue</li>
-                        <li>Tailwind CSS</li>
-                        <li>Java</li>
-                        <li>React.js</li>
-                        <li>HTML / CSS</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="contact-me">
-                <a href="contact-page.html">Contact me</a>
+
+            <div class="skillset-container">
+                <ul class="skill-set">
+                    <li>Mobile Development</li>
+                    <li>Application Development</li>
+                    <li>Figma</li>
+                    <li>Adobe Illustrator</li>
+                    <li>UI Design </li>
+                    <li>Graphic Design</li>
+                    <li>C++</li>
+                    <li>JavaScript</li>
+                    <li>Vue</li>
+                    <li>Tailwind CSS</li>
+                    <li>Java</li>
+                    <li>React.js</li>
+                    <li>HTML / CSS</li>
+                </ul>
             </div>
         </div>
 
@@ -319,61 +80,86 @@
             <hr class="two">
 
             <div>
-                <div class="experience-table-design">
-                    <h3>Experiences</h3>
+                <div class="right-wrapper">
+                    <section>
+                        <h3>Experiences</h3>
+                        <table class="experience-table">
+                            <tr>
+                                <th>CodeC</th>
+                                <th>Front End Developer</th>
+                            </tr>
+                            <tr>
+                                <td>July, 2021 - Present</td>
+                                <td>Student volunteer front end developer of the College of Computer Studies,
+                                    Ateneo de Naga
+                                    University</td>
+                            </tr>
 
-                    <table class="experience-table">
-                        <tr>
-                            <th>CodeC</th>
-                            <th>Front End Developer</th>
-                        </tr>
-                        <tr>
-                            <td>July, 2021 - Present</td>
-                            <td>Student volunteer front end developer of the College of Computer Studies, Ateneo de Naga
-                                University</td>
-                        </tr>
+                            <tr>
+                                <th>CodeArmy</th>
+                                <th>UI/UX Developer</th>
+                            </tr>
 
-                        <tr>
-                            <th>CodeArmy</th>
-                            <th>UI/UX Developer</th>
-                        </tr>
+                            <tr>
+                                <td>November 2021 - Present</td>
+                                <td>Mobile and Web application designer </td>
+                            </tr>
 
-                        <tr>
-                            <td>November 2021 - Present</td>
-                            <td>Description</td>
-                        </tr>
+                            <tr>
+                                <th></th>
+                                <th>Front End Developer</th>
+                            </tr>
 
-                        <tr>
-                            <th></th>
-                            <th>Front End Developer</th>
-                        </tr>
+                            <tr>
+                                <td></td>
+                                <td>Mobile and Web application developer</td>
+                            </tr>
+                        </table>
+                    </section>
 
-                        <tr>
-                            <td></td>
-                            <td>Description</td>
-                        </tr>
-                    </table>
+                    <section>
+                        <h3>Education</h3>
+                        <table class="education-table">
+                            <tr>
+                                <th>Bachelor of Science in Computer Science</th>
+                            </tr>
 
-                    <h3>Education</h3>
-                    <table class="education-table">
-                        <tr>
-                            <th>Technical Vocational Education - TVE</th>
-                            <th>Computer System Servicing - CSS</th>
-                        </tr>
+                            <tr>
+                                <td>Ateneo de Naga University, 2021 - Present</td>
+                            </tr>
 
-                        <tr>
-                            <td>Camarines Sur National High School</td>
-                            <td>Camarines Sur National High School</td>
-                        </tr>
+                            <tr>
+                                <th>Computer System Servicing - CSS</th>
+                            </tr>
 
-                        <tr>
-                            <th>Bachelor of Science in Computer Science</th>
-                        </tr>
+                            <tr>
+                                <td>Camarines Sur National High School, 2019 - 2021</td>
+                            </tr>
 
-                        <tr>
-                            <td>Ateneo de Naga University</td>
-                        </tr>
-                    </table>
+                            <tr>
+                                <th>Technical Vocational Education - Electronics</th>
+                            </tr>
+
+                            <tr>
+                                <td>Camarines Sur National High School, 2014 - 2019</td>
+                            </tr>
+                        </table>
+                    </section>
+
+                    <section>
+                        <h3>References</h3>
+                        <div class="references-section">
+                            <h4>Rhymart Manchus</h4>
+                            <p>CodeArmy Founder, <em>CEO</em></p>
+
+                            <h4>Joshua Martinez</h4>
+                            <p>OIC, Dean, College of Computer Studies</p>
+
+                            <h4>Adrian Pajarillo</h4>
+                            <p>Chairperson, Department of Computer Science</p>
+                        </div>
+                    </section>
+
                 </div>
             </div>
         </div>
