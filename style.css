@@ -311,4 +311,9 @@ td {
         color: white;
         font-size: 25px;
     }
+
+    .footer-container span {
+        color: white;
+        text-decoration: underline;
+    }
 }
